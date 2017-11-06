@@ -11,7 +11,7 @@ set -e
 unset GIT_DIR
 
 # config
-PGBOUNCER_VERSION="1.7-heroku"
+PGBOUNCER_VERSION="1.7.2-heroku"
 
 # parse and derive params
 BUILD_DIR=$1
@@ -52,9 +52,6 @@ echo "-----> Moving the start-pgbouncer script into app/bin"
 mkdir -p $BUILD_DIR/bin
 cp "$BUILDPACK_DIR/bin/start-pgbouncer" $BUILD_DIR/bin/
 chmod +x $BUILD_DIR/bin/start-pgbouncer
-
-echo "-----> Create legacy start-pgbouncer-stunnel symbolic link"
-ln -s start-pgbouncer $BUILD_DIR/bin/start-pgbouncer-stunnel
 
 echo "-----> Moving the use-pgbouncer script into app/bin"
 mkdir -p $BUILD_DIR/bin

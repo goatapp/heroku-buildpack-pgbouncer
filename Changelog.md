@@ -1,3 +1,9 @@
+## v1.0.0 (November 6, 2017)
+
+  * Upgrade to pgboucner 1.7.2
+  * Remove stunnel
+  * Remove TLS requirement
+
 ## v0.3.4 (January 2, 2015)
 
 * Updates binary versions to pgbouncer 1.7 and stunnel 5.28

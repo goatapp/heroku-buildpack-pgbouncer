@@ -1,6 +1,6 @@
 set -e
 
-PGBOUNCER_VERSION=${PGBOUNCER_VERSION-1.7}
+PGBOUNCER_VERSION=${PGBOUNCER_VERSION-1.7.2}
 
 pgbouncer_tarball_url=https://pgbouncer.github.io/downloads/files/${PGBOUNCER_VERSION}/pgbouncer-${PGBOUNCER_VERSION}.tar.gz
 

@@ -77,7 +77,7 @@ Example usage:
     -----> Multipack app detected
     -----> Fetching custom git buildpack... done
     -----> pgbouncer app detected
-           Using pgbouncer version: 1.7-heroku
+           Using pgbouncer version: 1.7.2-heroku
     -----> Fetching and vendoring pgbouncer into slug
     -----> Moving the configuration generation script into app/bin
     -----> Moving the start-pgbouncer script into app/bin
